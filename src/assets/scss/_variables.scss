@@ -1,0 +1,21 @@
+/*******************************************************************
+// 위치 : src/assets/scss/_variables.scss
+// 설명 : 프로젝트 전체에 적용되는 변수에 대해 정의함
+// 주의 : 이 파일은 vue.config.js에 설정되면 됨
+********************************************************************/
+
+$body-font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+$border-radius-root: 6px;
+$font-size-root: 14px;
+$font-size-standard: 16px;
+
+// 사용자 정의 변수
+$color-main : #f85a40;
+$color-sub : #d63c27;
+$color-default : #1e1e1e;
+$color-gray-1 : #333333;
+$color-gray-2 : #666666;
+$color-gray-3 : #999999;
+$color-gray-4 : #eeeeee;
+$colorBg1: #fff;
+$colorBg2: #000;

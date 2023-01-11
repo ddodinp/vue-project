@@ -1,0 +1,58 @@
+@import './variables.scss';
+
+// common.scss
+#app {
+   // 변수 사용
+  font-size: $font-size-root;
+  color: $color-default;
+  height: 2000px;
+}
+
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, table, th, td, form, fieldset, legend, textarea, input, select, textarea, button, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #262626;
+  -webkit-text-size-adjust: none;
+}
+
+ol, li {list-style: none;}
+
+ul {
+  padding: 0;
+  li {
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $color-default;
+}
+
+em {
+  font-style: normal;
+}
+
+fieldset, input, button{
+  border: 0;
+  outline: none;
+  background: none;
+  color: inherit;
+}
+
+
+// layout
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+// screen out
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}

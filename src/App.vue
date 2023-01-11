@@ -1,25 +1,30 @@
 <template>
-  <HelloWorld msg="여러분 안녕하세여"/>
+  <div class="wrap">
+    <HeaderView />
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HeaderView from '@/components/header/HeaderView.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderView
+  },
+  data() {
+    return {
+    }
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+.wrap {
+  margin: 60px 0;
+  &-text{
+    margin:50px;
+    // color: $color-main;                                                                                                                                                                                                                     
+  }
 }
 </style>
